@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <title> Project </title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Ibarra+Real+Nova&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+h2{
+    background-color: rgb(213, 148, 62);
+font-size: 30px;
+text-shadow: 1px 1px 3px rgb(71, 71, 129);
+text-align: center;
+display: block;
+position: relative;
+height: 40px;
+}
+body{
+    background-image:url("images/background\ image\ 7.jpg");
+background-repeat:no-repeat;
+background-size: cover;
+font-family: 'Poppins', sans-serif;
+text-shadow: 1px 1px 3px rgb(110, 68, 149)
+;
+}
+.contact,li{
+    color:black;
+    font-size:20px ;
+    border: none;
+margin-bottom: 10px;
+    margin-top: 30px;
+    
+}
+form{
+font-size: 20px;
+color:black;
+margin-left:700px ;
+border: 2px solid black;;
+border-radius:5px;
+
+}
+/* input,textarea:focus{
+    background-color: rgb(187, 193, 193)
+} */
+        input[type="submit"]:hover{
+            background-color:rgb(196, 117, 7);
+    }
+</style>
+</head>
+
+<body>
+    <h2>Contact Us</h2>
+    <ul class="contact">
+        <li><i class="fa-solid fa-location-dot"></i> &nbsp; Dream Destination, Pune, Maharashtra.</li>
+        <li><i class="fa-solid fa-envelope"></i>&nbsp;dream.destination123@gmail.com</li>
+        <li><i class="fa-solid fa-phone"></i>&nbsp;+91 738 718 971</li>
+        <li><i class="fa-solid fa-clock"></i>&nbsp;Mon-Sat 8.00 AM to 7.00 PM</li>
+    </ul>
+    <form>
+        <h3>Your feedback </h3>
+        <table>
+            <tbody>
+                <tr>
+                    <td><label> Full Name </label></td>
+                    <td><input type="text" autofocus placeholder="Write Full Name Please" required></td>
+        
+                </tr>
+                <tr>
+                    <td><label>Email</label></td>
+                    <td><input type="email" required></td>
+                </tr>
+                <tr>
+                    <td><label>Message</label></td>
+               <td><textarea name="message" id="message" cols="30" rows="5" placeholder="Please Write Your Feedback.."></textarea></td>
+                </tr>
+                <tr>
+                    <td><input type="submit"></td>
+                </tr>
+
+
+
+            </tbody>
+       
+        </table>
+    </form>
+
+</body>
+
+</html>
