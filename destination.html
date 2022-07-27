@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Destination</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        header {
+            width: 100%;
+            position: fixed;
+        }
+
+        nav {
+            width: 100%;
+            height: 10vh;
+            background-color: rgba(17, 130, 90, 0.7);
+            color: white;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            text-transform: uppercase;
+        }
+
+        nav .logo {
+            width: 100%;
+            margin-left: 25%;
+        }
+
+        nav .sub {
+            width: 100%;
+            margin-left: 25%;
+            /* font-family: 'Cormorant SC', serif; */
+            font-family: 'Dancing Script', cursive;
+            font-size: 14px;
+            text-align: center;
+            padding-top: 5px;
+        }
+
+        .menu a {
+            padding: 0px 15px 0px 15px;
+            text-decoration: none;
+            color: white;
+            font-family: 'Roboto Slab', serif;
+        }
+
+        .menu a:hover {
+            color: white;
+            padding: 10px 30px;
+            border-radius: 5px;
+            outline: none;
+            text-transform: uppercase;
+            font-size: 13px;
+            font-weight: 500;
+            text-decoration: none;
+            letter-spacing: 1px;
+            background: #FFF;
+            color: #000;
+        }
+
+        h3 {
+            font-size: 25px;
+            color: rgb(226, 233, 238);
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            text-transform: uppercase;
+            text-align: center;
+            letter-spacing: 2px;
+            background-color: rgb(5, 68, 104);
+            text-shadow: 5px 5px 5px red;
+            text-transform: uppercase;
+        }
+
+        .container {
+            max-width: 1200px;
+           
+            margin: auto;
+            
+            overflow: auto;
+            
+        }
+
+        .details {
+            width: auto;
+            height: auto;
+            margin-bottom: 20px;
+            background-color: #f2f2f2;
+            overflow: auto;
+        }
+
+        .gallary {
+            margin: 5px;
+          
+            float: left;
+            width: 230px;
+            height: 300px;
+        }
+
+        .gallary img {
+            width: 100%;
+            height: "500px";
+           
+        }
+       
+         .desc:hover {
+            background-color: rgb(218, 198, 198);
+        }
+        img:hover{
+     opacity:0.5;
+     
+
+        }
+        .desc {
+            padding: 15px;
+            text-align: center;
+            font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            text-shadow : 5px 5px 5px rgb(167, 110, 110);
+            
+            
+        }
+       
+
+        .footer {
+            width: 100%;
+            height: 30vh;
+            background-color: rgba(17, 130, 90, 0.7);
+            color: white;
+            display: flex;
+            justify-content: space-around;
+            text-align: left;
+        }
+
+        .footer div h3 {
+            font-weight: 500;
+            margin-bottom: 20px;
+            letter-spacing: 1px;
+            font-size: 20px;
+            text-transform: capitalize;
+            margin-top: 10px;
+        }
+
+        .col-1 a {
+            display: block;
+            text-decoration: none;
+            color: #FFF;
+            margin-bottom: 10px;
+            font-weight: 500px;
+            font-size: 16px;
+
+        }
+
+        .col-2 i {
+            display: block;
+            color: #FFF;
+            margin-bottom: 10px;
+            font-weight: 500px;
+            font-size: 16px;
+
+        }
+
+        .col-3 i {
+            padding: 10px 10px 10px 10px;
+            cursor: pointer;
+        }
+        body{
+            /* background-image: url('../MeraBharat/images/Taj.jpg'); */
+
+            background-size: cover; 
+           background-color: rgb(193, 237, 237);
+        } 
+    </style>
+</head>
+
+<body>
+    
+<br><br><br><br>
+
+    <div class="details">
+        <marquee>
+            <h3>Welcome to India</h3>
+        </marquee>
+        <h3 style="font-size:12px;">Top Trending India Holiday Destinations</h3>
+    </div>
+
+    <div class="container">
+
+
+
+
+        <div class="gallary">
+            <a href="kerla.html"><img src="images/kerla.webp"></a>
+            <div class="desc"><a href="kerla.html">Kerala</a></div>
+            <a href="kerla.html"><div class="desc">Explore More</div></a>
+
+        </div>
+        <div class="gallary">
+            <img src="images/kashmir0.webp">
+            <div class="desc">kashmir</div>
+            <a href="#"><div class="desc">Explore More</div></a>
+        </div>
+        <div class="gallary">
+            <img src="images/sikkim0.webp">
+            <div class="desc">sikkim</div>
+            <a href="#"><div class="desc">Explore More</div></a>
+        </div>
+        <div class="gallary">
+            <img src="images/uttrakhand.webp">
+            <div class="desc">uttrakhand</div>
+            <a href="#"><div class="desc">Explore More</div></a>
+        </div>
+        <div class="gallary">
+            <img src="images/Himanchal.webp">
+            <div class="desc">Himanchal</div>
+            <a href="#"><div class="desc">Explore More</div></a>
+        </div>
+
+    </div>
+</body>
+
+</html>
