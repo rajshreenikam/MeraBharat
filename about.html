@@ -16,12 +16,12 @@
             font-size: 30px;
             font-family: 'Roboto', sans-serif;
             /* padding: 50px; */
-            text-align: left;
+            text-align: center;
             color: darkblue;
             float: left;
-            width: 60%;
+            width: 100%;
             padding: 20px;
-
+            border-bottom: 2px dotted black;
             /* border:1px solid black; */
             /* background-color: #474e5d;
             color: white; */
@@ -32,15 +32,16 @@
             font-size: 16px;
             font-family: 'Roboto', sans-serif;
             color: black;
+            text-align: justify;
         }
 
-        #overflow_prop {
+        /* #overflow_prop {
             width: 800px;
             height: 300px;
             border: 1px solid rgb(178, 230, 231);
             overflow: auto;
             box-shadow: 2px 2px 2px;
-        }
+        } */
 
         .column {
             float: left;
@@ -55,13 +56,19 @@
             font-size: 18px;
             font-family: 'Roboto', sans-serif;
             text-align: center;
-            border-top: 2px dotted black;
+            /* border-bottom: 2px dotted black; */
+        }
+        .row{
+            margin-left: 50px;
         }
     </style>
 </head>
 
 <body>
-    <div class="about" id="overflow_prop">
+    <span>
+        <img width="1350px" height="230px" src="images/aboutus.jpg">
+    </span>
+    <div class="about">
         About Us
         <p class="p">
 
@@ -83,21 +90,21 @@
         </p>
 
     </div>
-    <div>
-        &nbsp;&nbsp;&nbsp;<img width="450px" height="340px" src="images/Travel_img.png">
-    </div>
+    <!-- <div>
+        &nbsp;&nbsp;<img width="480px" height="340px" src="Travel_img.png">
+    </div> -->
 
-    </div>
+    <br>
     <details>
 
         <summary class="summary">
-            Reviews
+            Testimonials
         </summary>
         <div class="row">
             <div class="column">
 
-                <div class="container">
-                    <h4>Amazing! <br>Visited Kashmir and The Kullu Manali</h4><br><br>
+                <div class="container" style="box-shadow:2px;">
+                    <h4>Amazing! <br>Visited Kashmir and The Kullu Manali</h4><br>
                     <span>Rating</span>
                     
                     <span class="fa fa-star checked"></span>
@@ -115,7 +122,6 @@
 
             <div class="container">
                 <h4>Unexpected delights!<br>Both relaxing and stimulating, amazing sights, beaches and fantastic hotels</h4>
-                <br>
                 <span>Rating</span>
                     <span class="fa fa-star checked"></span>
                     <span class="fa fa-star checked"></span>
@@ -130,7 +136,7 @@
         <div class="column">
 
             <div class="container">
-                <h4>Tailored flexible travel experience!<br>The best family holiday we have ever been on</h4><br>
+                <h4>Tailored flexible travel experience!<br>The best family holiday we have ever been on</h4>
                 <span>Rating</span>
                 <span class="fa fa-star checked"></span>
                 <span class="fa fa-star checked"></span>
