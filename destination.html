@@ -168,9 +168,33 @@
         body{
             /* background-image: url('../MeraBharat/images/Taj.jpg'); */
 
-            background-size: cover; 
-           background-color: rgb(193, 237, 237);
-        } 
+            /* background-size: cover; 
+           background-color: rgb(193, 237, 237); */
+           animation:slider 10s infinite linear; 
+        }  
+    
+        @keyframes  slider {
+             0%{ background-image: url('../images/kerala3.webp'); 
+             background-size:cover;
+               }
+               
+             20%{ background-image: url('images/sikkim0.webp');
+             background-size:cover;
+              }
+
+             40%{background-image: url('images/kashmir0.webp');
+             background-size:cover;
+            }
+
+             60%{background-image: url('images/nature11.png');
+             background-size:cover;
+            }
+
+             80%{background-image: url('images/sunset1.jpg');
+             background-size:cover;
+            }
+           } 
+        
     </style>
 </head>
 
